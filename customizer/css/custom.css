@@ -1,0 +1,25 @@
+html,body{
+   margin: 0px;
+   padding: 0px;
+   min-width: 100%;
+   min-height: 100%; 
+}
+
+#actionSocial .skill p{
+    font-size: small;
+    font-weight: bold;
+}
+
+hr{
+    border-top: dotted 2px !important;
+}
+
+#competenceExclu .skill p{
+    font-size: small;
+    font-weight: bold;
+}
+
+#compExclu2 .skill p{
+    font-size: small;
+    font-weight: bold;
+}
