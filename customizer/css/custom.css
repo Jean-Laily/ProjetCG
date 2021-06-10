@@ -74,10 +74,6 @@ body{
     font-weight: 600;
 }
 
-.cadre-form button{
-    margin-left: 76%;
-}
-
 
 .sociauxLink h6{
     color: #607d8b;
@@ -115,13 +111,6 @@ body{
     .contentLogin{
         margin-top: 200px;
     }
-
-    .cadre-form button{
-        margin-left: 64%;
-    }
-
-    
-
     
 }
 
