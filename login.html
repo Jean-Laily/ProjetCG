@@ -15,22 +15,23 @@
 </head>
 <body >
     <main class="container loginCard" >
+        <div class="imgBg"></div>
         <div class="row justify-content-center ">
             <div class="col-lg-6 contentLogin m-lg-auto">
                 <div class="card">
                     <div class="card-body cadre-form ">
                         <h4 class="mb-4">LOGIN</h4>
-                        <div class="msgE"></div>
+                        <div class="msgE alert alert-danger d-none font-weight-bold">Identifiant ou mot de passe invalide</div>
                         <form id="formLogin" method="POST">
                             <div class="form-group">	
-                                <label for="username">Utilisateur</label>
-                                <input type="text" name="nomUser" id="username" class="form-control"/>
+                                <label for="username">Utilisateur</label> 
+                                <input type="text" name="nomUser" id="username" maxlength="10" class="form-control" required/>
                             </div>
                             <div class="form-group">
                                 <label for="password">Mot de passe</label>
-                                <input type="password" name="passUser" id="password" class="form-control"/>
+                                <input type="password" name="passUser" id="password" maxlength="20" class="form-control" required/>
                             </div>
-                            <button type="submit" class="btn text-white">Se connecter</button>
+                            <button type="submit" class="btn text-white btnConnect">Se connecter</button>
                         </form>
                     </div>
                     <div class="card-body sociauxLink text-center">
