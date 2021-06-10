@@ -5,7 +5,9 @@ html,body{
    min-height: 100%; 
 }
 
-/** **/
+/******************************************** 
+*              parti Page19                  *
+*********************************************/
 
 h1, h4{
     font-weight: bolder !important;
@@ -32,3 +34,96 @@ hr{
         font-size: larger !important;
     }
 }
+
+
+/******************************************** 
+*              parti Login                  *
+*********************************************/
+
+.loginCard{
+    margin-top: 15%;
+}
+
+body{
+    background: url("../../assets/media/fond/background.jpg") no-repeat center/150%;
+}
+
+.contentLogin h4{
+    color: #607d8b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.loginCard .card{
+    background-color: #ffffffc7;
+}
+
+.contentLogin .form-group label{
+    color: #607d8b;
+    font-size: 16px;
+    font-weight: unset;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    
+}
+
+.cadre-form  button{
+    background: #ff4584;
+    font-weight: 600;
+}
+
+.cadre-form button{
+    margin-left: 76%;
+}
+
+
+.sociauxLink h6{
+    color: #607d8b;
+    font-weight: unset;
+    letter-spacing: 1px;
+}
+
+.sociauxLink .btnIcon{
+    background: #607d8b;
+    width: 50px;
+    height: 50px;
+    margin: 0 7px;
+    border-radius: 50%;
+}
+
+.sociauxLink .btnIcon i{
+   transform: scale(0.5);
+   filter: invert(1);
+}
+
+.sociauxLink .btnIcon:hover{
+    background: #ff4584;
+}
+
+@media screen and (max-width: 992px ) {
+
+    body {
+        background: url(../../assets/media/fond/background.jpg) no-repeat center/280%;
+    }
+
+    .loginCard{
+        margin-top: 0%;
+    }
+    
+    .contentLogin{
+        margin-top: 200px;
+    }
+
+    .cadre-form button{
+        margin-left: 64%;
+    }
+
+    
+
+    
+}
+
+
+
