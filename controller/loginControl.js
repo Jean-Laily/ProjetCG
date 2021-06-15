@@ -16,7 +16,7 @@ $().ready(function(){
         let id = $("#username").val();
         let pw = $("#password").val();
         let resultCrtl = controlUser(id, pw);
-        if(resultCrtl && userCookie === "admin"){
+        if(resultCrtl && userCookie === "Admin"){
             // $(this).add("action").attr("action", urlAdmin);
             window.location = "http://localhost/ProjetCG/view/dashboard.html";
         }else if(resultCrtl){
